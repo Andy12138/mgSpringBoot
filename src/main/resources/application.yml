@@ -1,0 +1,10 @@
+person: 
+   name: 名桂
+   age: 24
+   map: {a: A,b: B}
+   list: 
+     - 哈啊哈
+     - 5566
+   pet:
+     name: 帕比
+     age: 5
