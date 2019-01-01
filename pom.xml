@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.zmg</groupId>
-	<artifactId>mgSpringBoot</artifactId>
+	<artifactId>mgSpringboot</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>mgSpringBoot</name>
+	<name>mgSpringboot</name>
 	<description>Demo project for Spring Boot</description>
 
 	<properties>
@@ -19,19 +19,18 @@
 	</properties>
 
 	<dependencies>
-		<!-- springboot web依赖包 -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
 
-		<!-- springboot 测试包 -->
+		<!-- springboot的测试插件 -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
-		<!-- 导入配置文件注解的插件 -->
+		<!-- 用来在类中注解配置文件的插件 -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-configuration-processor</artifactId>
@@ -40,7 +39,7 @@
 	</dependencies>
 
 	<build>
-		<!-- 此插件让项目可以打包成jar包 -->
+		<!-- 这个是个帮助项目打包成jar的插件 -->
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>

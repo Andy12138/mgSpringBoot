@@ -1,10 +1,36 @@
-person: 
-   name: 名桂
-   age: 24
-   map: {a: A,b: B}
-   list: 
-     - 哈啊哈
-     - 5566
-   pet:
-     name: 帕比
-     age: 5
+server:
+  port: 8881
+  servlet:
+    context-path: /mgBoot
+#spring:
+#  profiles:
+#    active: prod1
+---
+
+server:
+  port: 8882 
+spring:
+  profiles: dev1
+  
+---
+
+server:
+  port: 8883 
+spring:
+  profiles: prod1
+
+
+
+
+
+
+
+
+
+#person: 
+#  last-name: 芬琪
+#  age: 25
+#  maps: {work: 数据分析师,love: 名桂}
+#  list: 
+#    - 可爱
+#    - 有追求
